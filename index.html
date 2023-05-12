@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script type="text/javascript" src="script.js"></script>
+    <title>Encriptador</title>
+</head>
+
+<body>
+
+    <div class="contenedor">
+        <div class="input-container">
+            <input type="textarea" id="textoEncriptado" placeholder="Ingresa el texto Insecto">
+        </div>
+        <div class="textarea-container">
+            <div class="container">
+                <img class="ki-meter" src="imagenes/medidor.png" alt="Medidor de Ki de Dragon Ball">
+                <textarea class="textarea" name="" id="textoDesencriptado" cols="30" rows="10"></textarea>
+            </div>
+            <div class="botones-container">
+                <button type="button" id="botonEncriptado">Encriptar</button>
+                <button type="button" id="botonDesencriptado">Desencriptar</button>
+                <button type="button" id="botonCopiar">Copiar</button>
+            </div>
+        </div>
+    </div>
+
+</body>
+<script>
+    var btn = document.querySelector("#botonEncriptado");
+    btn.onclick = encriptar;
+    var btn2 = document.querySelector("#botonDesencriptado");
+    btn2.onclick = desencriptar;
+    var btn3 = document.querySelector("#botonCopiar");
+    btn3.onclick = copiar;
+</script>
+
+</html>

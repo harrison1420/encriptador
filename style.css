@@ -1,0 +1,134 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+   background: url(imagenes/nameku.jpeg)no-repeat ;
+   background-size: cover;
+}
+#textoDesencriptado{
+    color:white;
+    position: absolute;
+    top: 50px;
+    left: -0px;    
+    width: 300px;
+    height: 200px;
+    resize: none;
+    display: block;
+    text-align: center;
+    margin: auto;
+    margin-top: -50px;
+    font-size: 35px;
+    border-radius: 20px;
+    border: 0;
+    outline: 0;
+
+}
+#botonEncriptado{
+    text-align: center;
+    width: 600%;
+    height: 40px;
+    background-color:blueviolet;
+    color: white;
+    font-size: 15px;
+    cursor: pointer;
+    right: 200%;
+    
+}
+#botonEncriptado:hover{
+    background-color: #d6cccb;
+    color: black;
+}
+
+
+#botonDesencriptado{
+    width: 600%;
+    height: 40px;
+    background-color: blueviolet;
+    color: white;
+    font-size: 15px;
+    cursor: pointer;
+}
+#botonDesencriptado:hover{
+    background-color: #d6cccb;
+    color: black;
+}
+.contenedor {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .input-container {
+    
+   margin-top: 50px;
+    
+  }
+  
+  .textarea-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  .botones-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  button {
+    margin: 0 10px;
+  }
+  ::placeholder{
+    font-size: 25px;
+  }
+  
+  
+  #textoEncriptado{
+    border-radius: 20px;
+    margin-left: -150px;
+    height: 80px;
+    width: 700%;
+    margin-top: 20px;
+    font-size: 15px;
+  }
+  #botonCopiar{
+    text-align: center;
+    width: 600%;
+    height: 40px;
+    background-color: blueviolet;
+    color: white;
+    font-size: 15px;
+    cursor: pointer;
+  }
+  #botonCopiar:hover{
+    background-color: bisque;
+    color: black;
+  }
+  .container {
+    position: relative;
+    width: 400px;
+    height: 300px;
+    margin: 0 auto;
+  }
+  .ki-meter {
+    width: 100%;
+    height: auto;
+    opacity: 0.5;
+  }
+  .textarea {
+    font-size: 18px;
+    position: absolute;
+    top: 50px;
+    left: 120px;
+    width: 100px;
+    height: 100px;
+    font-size: 16px;
+    padding: 50px;
+    border: 2px solid #fff;
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0.3);
+  }
